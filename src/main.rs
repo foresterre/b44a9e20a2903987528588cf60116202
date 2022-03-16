@@ -1,12 +1,5 @@
+use b44a9e20a2903987528588cf60116202::SampleEnum;
 use strum::VariantNames;
-use strum_macros::EnumVariantNames;
-
-#[derive(EnumVariantNames)]
-#[strum(serialize_all = "kebab_case")]
-pub enum SampleEnum {
-    One,
-    Two,
-}
 
 fn main() {
     dbg!(SampleEnum::VARIANTS);

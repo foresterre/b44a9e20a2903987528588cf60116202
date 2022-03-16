@@ -3,6 +3,14 @@
 version = 3
 
 [[package]]
+name = "b44a9e20a2903987528588cf60116202"
+version = "0.1.0"
+dependencies = [
+ "strum",
+ "strum_macros",
+]
+
+[[package]]
 name = "heck"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -36,8 +44,8 @@ checksum = "f2cc38e8fa666e2de3c4aba7edeb5ffc5246c1c2ed0e3d17e560aeeba736b23f"
 name = "sample"
 version = "0.1.0"
 dependencies = [
+ "b44a9e20a2903987528588cf60116202",
  "strum",
- "strum_macros",
 ]
 
 [[package]]

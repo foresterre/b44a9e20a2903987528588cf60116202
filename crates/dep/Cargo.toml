@@ -1,16 +1,13 @@
 [package]
-name = "sample"
+name = "b44a9e20a2903987528588cf60116202"
 version = "0.1.0"
 edition = "2018"
-description = "Example of 'cargo package' failure (root)"
+description = "A published dependency crate, required to demonstrate a `cargo package` failure"
 license = "ISC"
 repository = "https://github.com/foresterre/sic"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+strum_macros = "0.24.0"
 strum = "0.24.0"
-b44a9e20a2903987528588cf60116202 = { path = "crates/dep", version = "0.1" }
-
-[workspace]
-members =  [ "crates/dep" ]
